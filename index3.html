@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Compra de Videojuegos</h1>
+    
+    <div class="container">
+        <label for="cliente">Seleccionar Cliente:</label>
+        <select id="cliente">
+            <!-- Aquí se cargarán los clientes desde el almacenamiento local -->
+        </select>
+
+        <label for="juego">Seleccionar Videojuego:</label>
+        <select id="juego">
+            <!-- Aquí se cargarán los videojuegos desde el almacenamiento local -->
+        </select>
+
+        <button onclick="realizarCompra()">Realizar Compra</button>
+    </div>
+
+    <div class="container" id="resumenContainer">
+        <h2>Resumen de Compra</h2>
+        <ul id="resumen"></ul>
+    </div>
+
+    <script src="compras.js"></script>
+</body>
+</html>

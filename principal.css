@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body{
+    background-image: url(FONDO.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-family: 'Young Serif', serif;
+    text-transform: uppercase;
+    color: #fff;
+    border-color:fuchsia;
+
+}
+
+
+header a {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Yeseva One', serif;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+
+header {
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #070707;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid rgb(243, 3, 203);
+    border-radius: 60px;
+}
+
+
+header a:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff00dd;
+}

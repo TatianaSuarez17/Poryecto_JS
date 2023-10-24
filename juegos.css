@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&display=swap');
+body {
+    font-family: 'Yeseva One', serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url(img1.jpg);
+    background-size: cover;
+
+
+}
+
+h1{
+    color: rgb(234, 2, 255);
+    font-size: 50px;
+    
+}
+
+.container {
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-size: 25px;
+    color: rgb(81, 196, 231);
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Kaushan Script', cursive;
+}
+
+label, input, select {
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+   
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: aliceblue;
+}
+
