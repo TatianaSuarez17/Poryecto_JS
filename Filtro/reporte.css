@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kaushan+Script&display=swap');
+
+body {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Kaushan Script';
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    color: rgb(211, 4, 107);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #6d6d6d;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+
+.table {
+    margin-top: 20px;
+}
+
+
+.table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+#search {
+    width: 80%;
+}
+
+
+#search-label {
+    font-weight: bold;
+}
+
+
+.alert {
+    margin-top: 10px;
+}

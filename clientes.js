@@ -110,12 +110,12 @@ function ModiClientes() {
             if (clientes[i].id === idModificar) {
                 clienteEncontrado = true;
     
-                let newName = prompt("Nuevo nombre (deje en blanco si no desea modificar):");
-                let newApe = prompt("Nuevo apellido (deje en blanco si no desea modificar):");
-                let newTelf = prompt("Nuevo teléfono (deje en blanco si no desea modificar):");
-                let newCorreo = prompt("Nuevo correo electrónico (deje en blanco si no desea modificar):");
-                let newFeNa = prompt("Nueva fecha de nacimiento (deje en blanco si no desea modificar):");
-                let newNacionalidad = prompt("Nueva nacionalidad (deje en blanco si no desea modificar):");
+            let newName = prompt("Nuevo nombre (deje en blanco si no desea modificar):");
+            let newApe = prompt("Nuevo apellido (deje en blanco si no desea modificar):");
+            let newTelf = prompt("Nuevo teléfono (deje en blanco si no desea modificar):");
+            let newCorreo = prompt("Nuevo correo electrónico (deje en blanco si no desea modificar):");
+            let newFeNa = prompt("Nueva fecha de nacimiento (deje en blanco si no desea modificar):");
+            let newNacionalidad = prompt("Nueva nacionalidad (deje en blanco si no desea modificar):");
     
                 if (newName !== "") {
                     clientes[i].name = newName;
@@ -215,4 +215,4 @@ function resetearBusqueda() {
       
         document.getElementById("search").value = "";
 }
-      
+ 

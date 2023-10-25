@@ -11,7 +11,7 @@ function agregarVideojuego() {
         let videojuego = {id: id, name: name, theme: theme, license: license, loyaltyPoints: loyaltyPoints};
         videojuegos.push(videojuego);
 
-        actualizarLista();
+        // actualizarLista();
         limpiarCampos();
     } else {
         alert("Por favor, complete todos los campos correctamente.");
